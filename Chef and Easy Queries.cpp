@@ -10,7 +10,7 @@ int main()
         long long int n,k;
         cin>>n>>k;
         long long int pen=0;
-        bool f=false;
+        long long f=false;
         long long int day=0;
         for(long long int i=0;i<n;i++)
         {
