@@ -1,12 +1,14 @@
-//https://www.codechef.com/OCT20B/problems/POSAND
 #include<bits/stdc++.h>
 using namespace std;
-int main() {
-	int t;
+
+int main() 
+{
+    cin.tie(NULL);
+	long long int t;
 	cin>>t;
 	while(t--)
 	{
-	    int n;
+	    long long int n;
 	    cin>>n;
 	    if(n==1)
 	    {
@@ -19,9 +21,9 @@ int main() {
 	    else
 	    {
 	        cout<<"2 3 1 ";
-	        for(int i=4;i<=n;i++)
+	        for(long long int i=4;i<=n;i++)
 	        {
-	            if(ceil(log2(n)) == floor(log2(n)))
+	            if(ceil(log2(i)) == floor(log2(i)))
 	            {
 	                cout<<i+1<< " "<<i<<" ";
 	                i++;
