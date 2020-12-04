@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/maximum-subarray/submissions/
+//Kadane’s Algorithm
 
 class Solution {
 public:
@@ -17,3 +18,6 @@ public:
         return maxi;
     }
 };
+
+// Time Complexity -> O(N)
+// Space Complexity -> O(1)
