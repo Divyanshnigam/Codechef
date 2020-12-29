@@ -1,10 +1,6 @@
 /**
 
-
-
 // https://leetcode.com/problems/linked-list-cycle-ii/submissions/
-
-
 
 * Definition for singly-linked list.
  * struct ListNode {
