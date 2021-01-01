@@ -32,8 +32,6 @@ int main()
 
        // cout<<s<<" and "<<p<<endl;
 
-      //  cout<<cs<<" and "<<cp<<endl;
-
     }    
 }
 
