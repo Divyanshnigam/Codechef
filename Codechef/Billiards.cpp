@@ -38,7 +38,7 @@ int main()
                 x++;
                 y++;
                 k--;
-            }
+            }          //need to iterate ass possibily
             x++;
             y++;
         }
