@@ -47,6 +47,7 @@ void solve(int cb[][100],int n,int r,string asf)
     }
     
 }
+// try print -1 for no output??
 int main() {
 	int t;
     cin>>t;
